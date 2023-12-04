@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SMART FISHERIES VILLAGE - Politeknik AUP Kampus Serang</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.jpg" rel="icon">
+  <link href="assets/img/logo.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files AUP -->
+  <link rel="stylesheet" href="assets/AUP/slick.css">
+  <link rel="stylesheet" href="assets/AUP/animate.css">
+  <link rel="stylesheet" href="assets/AUP/default.css">
+  <link rel="stylesheet" href="assets/AUP/style.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Impact - v1.2.0
+  * Template URL: https://bootstrapmade.com/impact-bootstrap-business-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <style>
+    /* Menyembunyikan tombol prev/next pada tampilan mobile */
+    @media (max-width: 768px) {
+      .carousel-control-prev,
+      .carousel-control-next {
+        display: none;
+      }
+    }
+  
+    /* Mengatur animasi masuk dan keluar pada elemen carousel */
+    .animate__animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+  
+    .animate__fadeInDown {
+      animation-name: fadeInDown;
+    }
+  
+    .animate__fadeInUp {
+      animation-name: fadeInUp;
+    }
+  
+    @keyframes fadeInDown {
+      0% {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+
+  <!-- Topbar -->
+  <section id="topbar" class="topbar d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope-fill d-flex align-items-center"><a
+            href="mailto:bappl.stp@gmail.com">bappl.stp@gmail.com</a></i>
+        <i class="bi bi-telephone-fill d-flex align-items-center ms-4"><a href="tel:+62217805030">+62-21-7805030</a></i>
+      </div>
+      <div class="social-links d-none d-sm-flex align-items-center">
+        <a href="#" class="Twitter"><i class="bi bi-twitter"></i></i></a>
+        <a href="#" class="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="Youtube"><i class="bi bi-youtube"></i></i></a>
+      </div>
+    </div>
+  </section>
+  <!-- End Top Bar -->
+
+  <!-- NavBar -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo1.jpg" alt="">
+        <h5>SMART FISHERIES VILLAGE<span></span></h5>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="index.html">Beranda</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+          <li><a href="layanan.html">Layanan</a></li>
+          <li><a href="fasilitas.html">Fasilitas</a></li>
+          <li class="dropdown"><a href="produk.html"><span>Produk</span> <i
+                class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#">Genre Chips</a></li>
+              <li><a href="#">Mang Donut</a></li>
+              <li><a href="#">Sichan Chips</a></li>
+              <li><a href="#">Jaruju Stick</a></li>
+              <li><a href="#">Waton Cadang</a></li>
+              <li><a href="#">HoTea</a></li>
+              <li><a href="#">Juragan Fish</a></li>
+            </ul>
+          </li>
+          <li><a href="team.html">Tim</a></li>
+          <li><a href="blog.html">Berita</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+    <!-- end navbar -->
+
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+
+  <!-- Carousel -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        <ol id="hero-carousel-indicators" class="carousel-indicators">
+          <li data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#heroCarousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#heroCarousel" data-bs-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active c-item" style="background-image: url(assets/img//mangrove.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">The Best Business Information</h2>
+                <p class="animate__animated animate__fadeInUp">We're In The Business Of Helping You Start Your Business</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item c-item" style="background-image: url(assets/img//tambakudang.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
+                <p class="animate__animated animate__fadeInUp">Helping Business Security & Peace of Mind for Your Family</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item c-item" style="background-image: url(assets/img//mangrove2.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>
+                <p class="animate__animated animate__fadeInUp">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem</p>
+                <a href="#about" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+  </button>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+  </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script src="path/to/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+  <!-- End Carousel -->
+  <!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Tentang ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Tentang Kami</h2>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <h3>SMART FISHERIES VILLAGE (SFV)</h3>
+            <img src="assets/img/tentang.jpg" class="img-fluid rounded-4 mb-4" alt="">
+          </div>
+          <div class="col-lg-6">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic"></p><br><br>
+              <p style="text-align: justify;">
+                Smart Fisheris Village (SFV) atau bisa disebut dengan Kampung Perikanan Pintar yang dimana konsep ini
+                diadopsi untuk memadukan pertumbuhan ekonomi, bekerja bersama masyarakat, memerhatikan kelestarian
+                lingkungan, dan berbasis digital teknologi kekinian. Seiring perkembangannya, berbasis Desa dan UPT
+                sudah tesebar di beberapa daerah. Salah satu sebaran lokasi SFV tahun 2023 yakni di IPLKP (Instalasi
+                Praktik Kelautan dan Perikanan) Kampus Serang yang saat ini berfokus mengembangkan Kegiatan inti SFV
+                yaitu Kawasan Inti untuk Tambak Udang Busmetik, Pembenihan Udang, dan Produksi Pakan Mandiri.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Tentang -->
+
+    <!-- MAP -->
+    <section id="about" class="about-area"
+      style="background-image: url(https://politeknikaup.ac.id/assets/dokumen/bg/background07.jpg)">
+      <div class="section-header text-center">
+        <h2>Peta Kegiatan Inti dan Plasma Politeknik AUP Kampus Serang</h2>
+        <div class="map-container">
+          <img src="/assets/img/lay outing.png" class="img-fluid rounded-4 mb-4" alt="" style="width: 1000px;">
+          <div class="legend">
+            <h3>Legenda:</h3>
+            <ul>
+              <li class="text-center"><span class="legend-marker marker-1"></span>Kegiatan Inti</li>
+              <li>
+                1. Tambak Udang SFV modul 1 <br>
+                2. Tambak Udang SFV Modul 2 <br>
+                3. Pembenihan udang SFV dan Pembuatan pakan <br>
+              </li><br>
+              <li class="text-center"><span class="legend-marker marker-2"></span>Kegiatan Plasma</li>
+              <li>
+                4. Tambak Udang <br>
+                5. Tambak Udang Modul 3 <br>
+                6. Tambak Udang Modul 4 <br>
+                7. Kawasan Edu Eko Wisata Mangrove <br>
+                8. Tandon Modul 2 <br>
+                9. Tandon modul 4 <br>
+                10. Tambak Bandeng <br>
+                11. Silvofisheries <br>
+                12. Workshop mesin <br>
+                13. Kantor <br>
+                14. Unit Kewirusahaan <br>
+                15. Asrama Taruna <br>
+                16. Masjid <br>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= End MAP ======= -->
+
+    <!-- ======= Video YT ======= -->
+    <section id="call-to-action" class="call-to-action">
+      <div class="container text-center" data-aos="zoom-out">
+        <a href="https://youtu.be/OTdcS2yM9Dg" class="glightbox play-btn"></a>
+        <h3>SFV Politeknik AUP-Camp Serang</h3>
+        <p> Politeknik Ahli Usaha Perikanan (AUP) adalah Lembaga Pendidikan Vokasi yang Kompeten dan Inovatif Terutama
+          Di Bidang Perikanan.</p>
+        <!-- <a class="cta-btn" href="#">SFV Politeknik AUP-Camp Serang</a> -->
+      </div>
+    </section>
+    <!-- End Video YT -->
+
+    <!-- ======= KEGIATAN ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>KEGIATAN INTI SFV</h2>
+          <p>Kawasan Inti untuk Tambak Udang Busmetik, Pembenihan Udang, dan Produksi Pakan Mandiri. </p>
+        </div>
+
+    <!-- ======= kegiatan inti ======= -->
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pri_table_list">
+              <h3>INTI 1 <br /> <span>Kawasan Inti Untuk Tambak</span></h3>
+              <button>Detail</button>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pri_table_list">
+              <h3>INTI 2 <br /> <span>Pembenihan Udang</span></h3>
+              <button>Detail</button>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="pri_table_list">
+              <h3>INTI 3 <br /> <span>Produksi Pakan Mandiri</span></h3>
+              <button>Detail</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Section -->
+    
+<!-- ======= kegiatan plasma======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>KEGIATAN PLASMA</h2>
+          <p>Kegiatan Plasma Merupakan Kegiatan Penunjang dari Kegiatan SFV</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-2 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Edu-Eko Wisata Mangrove</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div>
+
+          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Pembenihan dan Pembesaran Lele</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+
+          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Silvofishery</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+
+          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">Budidaya Udang</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="500">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">Budidaya Bandeng</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+            data-aos-delay="600">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">Milkfish Culture</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- End KEGIATAN -->
+
+    <!-- ======= TEKNOLOGI ======= -->
+    <section id="recent-posts" class="recent-posts sections-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Aplikasi Teknologi</h2>
+          <p>Ikuti informasi terbaru Politeknik AUP Kampus Serang dan pahami mengenai teknologi perikanan dan kelautan
+            yang diciptakan oleh Politeknik AUP Kampus Serang</p>
+        </div>
+        <div class="row gy-5">
+          <div class="col-xl-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/teknologi/Desain tanpa judul.png" alt="" class="img-fluid">
+              </div>
+              <p class="post-category">Inovasi Probiotik</p>
+              <h2 class="title">
+                <a href="details1.html">"LSA BACTERIA" Upaya untuk meningkatkan produksi pada kegiatan budidaya
+                  perikanan</a>
+              </h2>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/teknologi/5.png" alt="" class="img-fluid">
+              </div>
+              <p class="post-category">Automatic Feeder</p>
+              <h2 class="title">
+                <a href="details2.html">e-TAFF 360 adalah alat bantu pemberian pakan otomatis</a>
+              </h2>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/teknologi/afica usi.png" alt="" class="img-fluid">
+              </div>
+              <p class="post-category">AFICA - USI</p>
+              <h2 class="title">
+                <a href="details3.html">Memonitoring kualitas air dengan 5 parameter</a>
+              </h2>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/teknologi/ecoshrimp.jpeg" alt="" class="img-fluid">
+              </div>
+              <p class="post-category">Ecoshrimp-Busmetik</p>
+              <h2 class="title">
+                <a href="details4.html">teknologi budidaya udang skala mini tambak plastik dengan pendekatan
+                  ekologi. Artinya, semua kegiatan budidaya dilakukan dengan pendekatan ekologi, yaitu dengan mengelola
+                  keseimbangan ekosistem lingkungan tambak.</a>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+              <div class="post-img">
+                <img src="assets/img/teknologi/pakan 2.png" alt="" class="img-fluid">
+              </div>
+              <p class="post-category">Teknologi Pakan Mandiri</p>
+              <h2 class="title">
+                <a href="details5.html">Dalam mendukung kegiatan Kampung Perikanan Pintar (Smart Fisheries Village)
+                  Politeknik AUP - Kampus Serang menginisiasi gerakan teknologi pakan mandiri, untuk menyokong kebutuhan
+                  pakan yang pesentasenya mencapai 60 - 70% dalam kegiatan budidaya.</a>
+              </h2>
+            </article>
+          </div><!-- End post list item -->
+        </div><!-- End recent posts list -->
+      </div>
+    </section>
+    <!-- END TEKNOLOGI -->
+
+    <!--====== MITRA ======-->
+    <section id="client" class="client-logo-area" style="background-color: #ffffff;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="section-title text-center pb-20">
+              <h4 style="color: #003399">Mitra Kerjasama</h4>
+            </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="row client-active">
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/BOSCH.jpg" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">BOSCH Indonesia </span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/CP prima.jpg" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">PT CP Prima </span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/sakti biru.jpg" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">PT Sakti Biru Indonesia</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/nch life.jpg" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">NCH Life Sciences</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/syaqua.jpg" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">PT SyAqua</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/jala.png" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">JALA</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/arunaa.png" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">ARUNA</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/upi.png" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">UPI Kamda Serang</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/penyuluh perikanan.jpg" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">Penyuluh Perikanan</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/lpmukp.png" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">LPMUKP KKP</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/lp2il serang.png" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">LP2IL Serang</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/sikpm.jpg" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">SKIPM Merak</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/dkp.jpg" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">Dinas Kelautan dan Perikanan Serang</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/logo.png" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">DISPARPORA Serang</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/klmpk sadar wisata.jpg" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">Kelompok Sadar Wisata</span>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-12">
+            <div class="single-client text-center">
+              <center><img src="assets/img/rekonvasi bumi.jpg" alt="Logo" style="width: 65%;"></center>
+              <br>
+              <span style="font-size: 10pt; color: #003399">Rekonvasi Bumi</span>
+            </div>
+            </a>
+          </div>
+        </div> <!-- row -->
+      </div> <!-- container -->
+    </section>
+    <!-- END MITRA -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-12 footer-info">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <p><span>Politeknik AUP <br> Kampus Serang</span></p>
+          </a>
+
+          <!-- MAP -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.760469908581!2d106.15974047423033!3d-6.027579559186636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41f317e72814b5%3A0x564b4aa9407bf867!2sPoliteknik%20Ahli%20Usaha%20Perikanan%20(AUP-STP)%20Kampus%20Banten!5e0!3m2!1sid!2sid!4v1686029469561!5m2!1sid!2sid"
+            width="250" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0">
+          </iframe>
+          <!-- END MAP -->
+
+          <div class="social-links d-flex mt-4">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Tentang Kami</h4>
+          <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang</a></li>
+            <li><a href="#">Layanan</a></li>
+            <li><a href="#">Fasilitas</a></li>
+            <li><a href="#">Produk</a></li>
+            <li><a href="#">Tim</a></li>
+            <li><a href="#">Berita</a></li>
+          </ul>
+        </div>
+
+        <!-- ======= Contact Section ======= -->
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Kontak Kami</h4>
+          <p>
+            Jl. STP Raya, Banten<br>
+            Kec. Kasemen, Kota Serang<br>
+            Banten 42191 <br><br>
+            <strong>Telpon:</strong> 0254 202094<br>
+            <strong>Email:</strong> bappl.stp@gmail.com<br>
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-6 footer-links">
+          <h4>Hubungi Kami</h4>
+          <div id="contact" class="contact">
+            <div class="col-lg-8">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Nama Anda" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email Anda" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="Subjek" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="7" placeholder="Pesan" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Memuat</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Pesan anda telah terkirim. Terima Kasih!</div>
+                </div>
+                <div class="text-center"><button type="submit"><b>Kirim Pesan</b></button></div>
+              </form>
+            </div><!-- End Contact Form -->
+          </div>
+        </div>
+        <!-- End Contact Section -->
+
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>SFV Politeknik AUP-Camp Serang</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://politeknikaup.ac.id/">Politeknik AUP</a>
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- Footer End -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <!--====== jquery js ======-->
+  <script src="assets/AUP/js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="assets/AUP/js/vendor/jquery-1.12.4.min.js"></script>
+
+  <!--====== Bootstrap js ======-->
+  <script src="assets/AUP/js/bootstrap.min.js"></script>
+  <script src="assets/AUP/js/popper.min.js"></script>
+
+  <!--====== Slick js ======-->
+  <script src="assets/AUP/js/slick.min.js"></script>
+
+  <!--====== Images Loaded js ======-->
+  <script src="assets/AUP/js/imagesloaded.pkgd.min.js"></script>
+
+  <!--====== Magnific Popup js ======-->
+  <script src="assets/AUP/js/jquery.magnific-popup.min.js"></script>
+
+  <!--====== Scrolling js ======-->
+  <script src="assets/AUP/js/scrolling-nav.js"></script>
+  <script src="assets/AUP/js/jquery.easing.min.js"></script>
+
+  <!--====== wow js ======-->
+  <script src="assets/AUP/js/wow.min.js"></script>
+
+  <!--====== Main js ======-->
+  <script src="assets/AUP/js/main.js"></script>
+
+</body>
+
+</html>
